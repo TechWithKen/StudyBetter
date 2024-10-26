@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h2>Study Better Dashboard</h2>
+    <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+    <div class="nav-links" id="navLinks">
+      <a href="upload.html">Upload Materials</a>
+      <a href="predictions.html">View Predictions</a>
+      <a href="landingpage.html">Log Out</a>
+    </div>
+  </nav>
+  <section class="dashboard-content">
+    <h3>Welcome Back!</h3>
+    <p>Upload your materials to get access to personalized exam questions</p>
+    <div class="actions">
+      <button onclick="location.href='upload.html'" class="btn-action">Upload Materials</button>
+    </div>
+  </section>
+  <script src="dashboard.js"></script>
+</body>
+</html>
