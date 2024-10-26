@@ -7,3 +7,10 @@ function updateFileName(inputId, displayId) {
     display.textContent = ''; // Clear if no file is selected
   }
 }
+
+function downloadPDF() {
+  const link = document.createElement("a");
+  link.href = "zeroOne.pdf";  // Path to your PDF file
+  link.download = "Startup Book.pdf";    // The name of the downloaded file
+  link.click();
+}

@@ -42,8 +42,10 @@
   .navbar p {
     font-size: 0.9em; 
     color: #6a0dad;  
+    font-weight: bold;
     margin: 10px 0; 
     text-align: center; 
+    animation: blink 1.5s infinite; /* Blinking animation */
   }
 
   label {
@@ -79,7 +81,17 @@
   }
 
   .btn-upload:hover {
-    background-color: #7c43bd;
+    background-color: transparent;
+    color: #6a0dad;
+    border: 2px solid #6a0dad;
+
+  }
+  .options-upload{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: nowrap;
   }
 
   .back-link {
@@ -92,6 +104,13 @@
   .back-link:hover {
     color: #6a0dad;
   }
+
+  /* Add blinking effect */
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
   @media (max-width: 768px) {
     .navbar {

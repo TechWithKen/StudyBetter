@@ -2,6 +2,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    border-radius: 5px;
     align-items: center;
     padding: 15px 30px;
     background-color: #340854; 
@@ -61,7 +62,9 @@
   }
   
   .btn-action:hover {
-    background-color: #7c43bd;
+    background-color: transparent;
+    color: #6a0dad;
+    border: 2px solid #6a0dad;
   }
   
   /* Responsive Styles */
