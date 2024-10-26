@@ -89,7 +89,6 @@
     .nav-links {
       display: none;
       flex-direction: column;
-      background-color: #2c2c54;
       top: 60px;
       right: 0;
       width: 95%; 
