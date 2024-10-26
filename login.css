@@ -65,7 +65,8 @@ input[type="password"] {
 }
 
 .submit-btn:hover {
-    background-color: #8e24aa; /* Darker purple on hover */
+    background-color: transparent;
+    border: 2px solid  #4a148c/* Darker purple on hover */
 }
 
 .separator {
