@@ -109,6 +109,9 @@ input[type="password"] {
     color: #6200ea; /* Link color */
     text-decoration: none;
 }
+.links a:hover{
+    color: #d1c4e9
+}
 
 @media (max-width: 480px) {
     .login-container {
