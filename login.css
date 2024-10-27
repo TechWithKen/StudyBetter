@@ -49,6 +49,7 @@ input[type="password"] {
     margin-bottom: 15px;
     background-color: transparent;
     color: #f3e5f5;
+    outline: none;
     width: 100%; /* Full width for input fields */
     transition: background-color 0.3s; /* Smooth transition */
 }
@@ -104,7 +105,10 @@ input[type="password"] {
 .links {
     margin-top: 15px; /* Space above the links */
 }
-
+.forgotten-password{
+    text-decoration: none;
+    color: #6200ea;
+}
 .links a {
     color: #6200ea; /* Link color */
     text-decoration: none;

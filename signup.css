@@ -44,7 +44,10 @@ input[type="text"] {
   border-top: none;
   color: #f3e5f5;
   width: 100%;
+  outline: none;
+  
 }
+
 
 /* Password Container for Checkbox Alignment */
 .password-container {
@@ -79,7 +82,7 @@ input[type="text"] {
 }
 
 .submit-btn:hover {
-  background-color: #8e24aa;
+  background-color: #4a148c;
 }
 .google-signup {
   background-color: #fff;
